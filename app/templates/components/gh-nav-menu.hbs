@@ -20,8 +20,8 @@
             <li class="relative">
                 <span {{action "transitionToOrRefreshSite" on="click"}}>
                     {{#link-to "site" data-test-nav="site" current-when=this.isOnSite preventDefault=false}}
-                        {{svg-jar "house"}} View site
-                    {{/link-to}}
+<section class="gh-nav-body">
+                        {{svg-jar "house"}} 预览 {{/link-to}}
                 </span>
                 <a href="{{this.config.blogUrl}}/" class="gh-secondary-action" title="Open site in new tab" target="_blank">
                     <span>{{svg-jar "expand"}}</span>
